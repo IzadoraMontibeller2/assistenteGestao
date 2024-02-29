@@ -59,12 +59,10 @@ export default function Home() {
 
   return (
     <Stack>
-      <Image src="/images/fundoimagem.jpg" alt="" layout="fill" objectFit="cover" />
       <Stack
         sx={{
-          position: "absolute",
-          top: 0,
-          left: 0,
+          display: "flex",
+          alignItems: "center",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -75,8 +73,7 @@ export default function Home() {
         }}
       >
         <Stack display={"flex"} flexDirection={"row"}>
-          <Image src="/images/logo.png" alt="" width={580} height={180} />
-          <Stack marginLeft={15} display={"flex"} flexDirection={"column"}>
+          <Stack display={"flex"} flexDirection={"column"}>
             <Stack margin={1}>
               <TextField
                 color="secondary"

@@ -75,7 +75,6 @@ export default function Home() {
         }}
       >
         <Stack display={"flex"} flexDirection={"row"}>
-          <Image src="/images/logo.png" alt="" width={580} height={180} />
           <Stack marginLeft={15} display={"flex"} flexDirection={"column"}>
             <Stack margin={1}>
               <TextField

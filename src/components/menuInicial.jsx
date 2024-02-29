@@ -41,8 +41,6 @@ export default function MenuHeader() {
 
   return (
     <Stack>
-    <Stack  marginTop={1} marginBottom={-10} marginLeft={3} >
-      <Image src="/images/hasar.png" width={100} height={72} alt="logo hasar"/></Stack>
       <Stack
         display={"flex"}
         direction="row"
